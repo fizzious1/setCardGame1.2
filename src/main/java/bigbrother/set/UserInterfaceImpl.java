@@ -1,4 +1,4 @@
-package bguspl.set;
+package bigbrother.set;
 
 import javax.swing.*;
 import java.awt.*;

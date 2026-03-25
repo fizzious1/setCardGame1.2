@@ -1,6 +1,6 @@
-package bguspl.set;
+package bigbrother.set;
 
-import bguspl.set.ex.Player;
+import bigbrother.set.ex.Player;
 
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;

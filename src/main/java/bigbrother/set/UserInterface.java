@@ -1,4 +1,4 @@
-package bguspl.set;
+package bigbrother.set;
 
 /**
  * This interface contains all methods used to display the graphical user interface.

@@ -1,9 +1,9 @@
-package bguspl.set.ex;
+package bigbrother.set.ex;
 
-import bguspl.set.Config;
-import bguspl.set.Env;
-import bguspl.set.UserInterface;
-import bguspl.set.Util;
+import bigbrother.set.Config;
+import bigbrother.set.Env;
+import bigbrother.set.UserInterface;
+import bigbrother.set.Util;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

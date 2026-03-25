@@ -1,8 +1,8 @@
-package bguspl.set;
+package bigbrother.set;
 
-import bguspl.set.ex.Dealer;
-import bguspl.set.ex.Player;
-import bguspl.set.ex.Table;
+import bigbrother.set.ex.Dealer;
+import bigbrother.set.ex.Player;
+import bigbrother.set.ex.Table;
 
 import java.awt.*;
 import java.io.File;

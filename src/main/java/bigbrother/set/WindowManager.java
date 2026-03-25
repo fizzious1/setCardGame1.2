@@ -1,6 +1,6 @@
-package bguspl.set;
+package bigbrother.set;
 
-import bguspl.set.ex.Dealer;
+import bigbrother.set.ex.Dealer;
 
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
