@@ -1,0 +1,21 @@
+{
+  "name": "@bb-simulator/simulation-core",
+  "version": "1.0.0",
+  "description": "Big Brother AI Simulator - Core Simulation Engine",
+  "main": "dist/src/engine.js",
+  "types": "dist/src/engine.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "generate-demo": "npx ts-node src/generate-demo.ts",
+    "test": "npx ts-node src/generate-demo.ts"
+  },
+  "dependencies": {
+    "@bb-simulator/shared": "file:../shared"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.5"
+  }
+}

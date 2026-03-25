@@ -1,0 +1,14 @@
+{
+  "name": "@bb-simulator/shared",
+  "version": "1.0.0",
+  "description": "Shared data contract types for Big Brother AI Simulator",
+  "main": "dist/types.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,118 @@
+import { Participant } from '../../shared/types';
+
+export function createParticipants(): Participant[] {
+  return [
+    {
+      id: 'p1',
+      name: 'Marcus Chen',
+      age: 29,
+      bio: 'A corporate lawyer from San Francisco who thrives on strategy and negotiation. Marcus is used to reading people in the courtroom and plans to use those skills to manipulate alliances from behind the scenes. He rarely shows his true emotions and always has a backup plan.',
+      personality: {
+        extraversion: 0.6,
+        agreeableness: 0.3,
+        strategy: 0.9,
+        emotionality: 0.2,
+        loyalty: 0.4,
+      },
+      avatarColor: '#2563EB',
+    },
+    {
+      id: 'p2',
+      name: 'Priya Sharma',
+      age: 25,
+      bio: 'A bubbly social media influencer from Miami who has never met a stranger. Priya connects with everyone instantly but struggles to keep secrets. Her genuine warmth makes her a natural ally, but her inability to play a cold strategic game could be her downfall.',
+      personality: {
+        extraversion: 0.95,
+        agreeableness: 0.85,
+        strategy: 0.3,
+        emotionality: 0.8,
+        loyalty: 0.7,
+      },
+      avatarColor: '#EC4899',
+    },
+    {
+      id: 'p3',
+      name: 'Deshawn Williams',
+      age: 34,
+      bio: 'A former college football coach from Atlanta who commands respect in any room. Deshawn is a natural leader with a strong moral compass, but his rigid sense of fairness can put him at odds with those playing a dirtier game. He forms deep bonds but never forgets a betrayal.',
+      personality: {
+        extraversion: 0.75,
+        agreeableness: 0.6,
+        strategy: 0.5,
+        emotionality: 0.4,
+        loyalty: 0.9,
+      },
+      avatarColor: '#16A34A',
+    },
+    {
+      id: 'p4',
+      name: 'Valentina Cruz',
+      age: 27,
+      bio: 'A fiery restaurant owner from Chicago who wears her heart on her sleeve. Valentina is passionate, confrontational, and fiercely protective of the people she cares about. She makes fast enemies and even faster friends, creating explosive dynamics wherever she goes.',
+      personality: {
+        extraversion: 0.85,
+        agreeableness: 0.35,
+        strategy: 0.4,
+        emotionality: 0.95,
+        loyalty: 0.75,
+      },
+      avatarColor: '#DC2626',
+    },
+    {
+      id: 'p5',
+      name: 'Oliver Whitfield',
+      age: 42,
+      bio: 'A quiet philosophy professor from Boston who observes everything and says little. Oliver plays the long game, forming calculated alliances while appearing harmless. He is the oldest in the house and uses his perceived irrelevance as a shield, but underestimating him is a fatal mistake.',
+      personality: {
+        extraversion: 0.25,
+        agreeableness: 0.5,
+        strategy: 0.85,
+        emotionality: 0.3,
+        loyalty: 0.5,
+      },
+      avatarColor: '#7C3AED',
+    },
+    {
+      id: 'p6',
+      name: 'Jasmine Okafor',
+      age: 23,
+      bio: 'A competitive gymnast from Houston with an unbreakable will to win. Jasmine is driven, athletic, and incredibly focused. She views the game as another competition and will do whatever it takes to come out on top. Her intensity can be intimidating, but she has a surprisingly soft side.',
+      personality: {
+        extraversion: 0.65,
+        agreeableness: 0.45,
+        strategy: 0.7,
+        emotionality: 0.5,
+        loyalty: 0.55,
+      },
+      avatarColor: '#F59E0B',
+    },
+    {
+      id: 'p7',
+      name: 'Liam Gallagher',
+      age: 31,
+      bio: 'A charming bartender from New York City who can talk his way out of anything. Liam is the life of the party and everyone\'s best friend — or so they think. Behind the easy smile is a sharp mind that plays people like a fiddle. He thrives in chaos and knows exactly when to stir the pot.',
+      personality: {
+        extraversion: 0.9,
+        agreeableness: 0.7,
+        strategy: 0.75,
+        emotionality: 0.35,
+        loyalty: 0.3,
+      },
+      avatarColor: '#0891B2',
+    },
+    {
+      id: 'p8',
+      name: 'Sofia Andersson',
+      age: 26,
+      bio: 'A no-nonsense software engineer from Seattle who approaches everything analytically. Sofia is introverted and awkward in social situations but brilliant at reading game dynamics. She forms few alliances but the ones she makes are iron-clad. Her blunt honesty both alienates and earns respect.',
+      personality: {
+        extraversion: 0.2,
+        agreeableness: 0.4,
+        strategy: 0.8,
+        emotionality: 0.25,
+        loyalty: 0.85,
+      },
+      avatarColor: '#64748B',
+    },
+  ];
+}
