@@ -25,7 +25,8 @@ public class BigBrotherSim : ModuleRules
 			"Slate",
 			"SlateCore",
 			"Json",
-			"JsonUtilities"
+			"JsonUtilities",
+			"Niagara"
 		});
 	}
 }
